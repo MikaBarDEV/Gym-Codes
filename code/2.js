@@ -22,6 +22,6 @@ for(var loop = 1; loop < 10000; loop++){
 }
 
 fs.writeFileSync('./output/2.txt', array.join('\n'))
-fs.appendFileSync('./output.txt', '\n\n//Minus\n' + array.join('\n'))
+fs.appendFileSync('./output.txt', '\n\nMedium:\n' + array.join('\n'))
 
 }
