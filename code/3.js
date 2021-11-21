@@ -8,7 +8,7 @@ function randomNumber(min, max) {
 var array = []
 var loop = 0
 
-for(var loop = 1; loop < 10000; loop++){
+for(var loop = 1; loop < 1000000; loop++){
 
   const start = randomNumber(1, 20)
   const second = randomNumber(1, 20)
