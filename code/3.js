@@ -22,7 +22,7 @@ for(var loop = 1; loop < 10000; loop++){
   
 }
 
-fs.writeFileSync('./3.txt', array.join('\n'))
+fs.writeFileSync('./output/3.txt', array.join('\n'))
 
 
 }
